@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>資料藝術網頁範例</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>資料藝術視覺化範例</h1>
+      <p>上傳您的CSV資料，並觀看資料轉換為美麗的圖表。</p>
+    </header>
+
+    <div class="upload-section">
+      <input type="file" id="fileInput" accept=".csv" />
+      <button onclick="handleFileUpload()">上傳資料</button>
+    </div>
+
+    <div class="chart-section">
+      <canvas id="dataChart"></canvas>
+    </div>
+
+    <div class="settings">
+      <label for="chartType">選擇圖表類型:</label>
+      <select id="chartType">
+        <option value="bar">長條圖</option>
+        <option value="line">折線圖</option>
+        <option value="pie">圓餅圖</option>
+      </select>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 資料藝術設計</p>
+    </footer>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.upload-section {
+  margin: 20px 0;
+}
+
+.upload-section input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.upload-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-section button:hover {
+  background-color: #45a049;
+}
+
+.chart-section {
+  margin-top: 30px;
+}
+
+canvas {
+  max-width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+}
